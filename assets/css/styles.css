@@ -179,3 +179,12 @@ responsivo: se adapta al dispositivo.*/
         width: 100%;
     }
 }
+.servicio__img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.carousel{
+    width: 300px;
+}
