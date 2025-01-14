@@ -9,6 +9,11 @@
 </head>
 <header class="bg-primary text-white py-3">
     <div class="container d-flex justify-content-between align-items-center">
+        <div>
+            <a href="index.html"><img src="assets\img\logo.png" class="@media d-xs-12 d-md-6 d-sm-6 py-3 margin-left"></a>
+
+        </div>        
+
         <h1 class="h3">Coleccion de Pinturas</h1>
         <nav>
             <ul class="nav">
@@ -31,22 +36,13 @@
                     <label for="nombre" class="form-label">Nombre de Usuario:</label>
                     <input type="text" class="form-control" placeholder="Ingrese nombre" name="nombre" required minlength="3">
                 </div>
-                <div class="mb-3">
-                    <label for="correo" class="form-label">Correo electrónico:</label>
-                    <input type="email" class="form-control" placeholder="Ingrese correo" name="correo" required>
-                </div>
                 
                 <div class="mb-3">
                                     
                 <label for="password" class="form-label">Password:</label>
-                <input type="password" class="form-control" rows="4" placeholder="Ingrese Password" required>
+                <input type="password" class="form-control" rows="4" placeholder="Ingrese Password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,8}$">
                 </div>
 
-                <div class="mb-3">
-                                    
-                <label for="password" class="form-label">Repita Password:</label>
-                <input type="password" class="form-control" rows="4" placeholder="Ingrese Password" required>
-                </div>
 
                 <div class="d-grid">   
                 <button type="submit" class="btn btn-primary">Enviar</button>

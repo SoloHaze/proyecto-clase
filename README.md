@@ -1,20 +1,20 @@
-# Project Title
+# Titulo del proyecto
 
 Pagina web para vender pinturas y/o colecciones de pinturas.
 
-## Description
+## Descripción
 
 Pagina web diseñada especialmente para brindar comodidad y seguridad al comprar una pintura por internet, usando metodos y funciones en JS, y html, brinda opciones multiples de pago con tarjeta, en base a paypal, para más seguridad y confiencialidad.
 
-## Getting Started
+## Empezando
 
-### Dependencies
+### Dependencias
 
 * Describe cualquier prerequisito, librerias, OS version, etc., necesitadas antes de instala el programa.
 * Necesita tener un ordenador conectado a internet, para clonar el repositorio en GitHub.
 
 
-### Installing and Executing
+### Instalación y Ejecución
 
 * Para descargar el repositorio en GitHub, de la pagina oficial el comando es
 ```Json
@@ -24,12 +24,12 @@ Pagina web diseñada especialmente para brindar comodidad y seguridad al comprar
 * posteriormente al descargar en su dispositivo local, abrir mediante la carpeta donde se ejecutó el comando o ejecutar el comando desde un IDE, ya sea IntelliJ, VsCode o NetBeans, o cualquier otro.
 
 
-## Help
+## Ayuda
 
 Para mas informacion o ayuda necesaria, contactar con SoloHaze, creador de el proyecto o su respectivo profesor asignado.
 
 
-## Authors
+## Colaboradores
 
 Nombres de colaboradores  
 
@@ -37,7 +37,7 @@ SoloHaze
 [@SoloHazeLinkedIn](https://www.linkedin.com/in/aron-acevedo-navarrete-096701142/?originalSubdomain=cl)  
 [@SoloHazeLinkedIn](https://www.linkedin.com/in/aron-orlando-acevedo-navarrete-202708270)
 
-## Version History
+## Historial
 
 * 0.2
     * Se agrega Readme.md 
