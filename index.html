@@ -9,7 +9,7 @@
 <body>
     
 
-    <header class="bg-primary text-white py-3 d-xs-12 d-md-6 d-sm-6 ">
+    <header class="bg-dark text-white py-3 d-xs-12 d-md-6 d-sm-6 ">
         <div class="container d-flex justify-content-between align-items-center">
           <div>
             <a href="index.html"><img src="assets\img\logo.png" class="@media d-xs-12 d-md-6 d-sm-6 py-3 margin-left"></a>
@@ -17,11 +17,13 @@
           </div>
             <h1 class="h3">Colección de pinturas</h1>
             <nav>
-                <ul class="nav nav-xs-12 nav-md-6 nav-sm-6">
+                <ul id="navbar" class="nav nav-xs-12 nav-md-6 nav-sm-6">
                     <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="productos.html">Pinturas</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="login.html">Log In</a></li>    
+                    <li id="registro" class="nav-item"><a class="nav-link text-white" href="re.html">Registro</a></li>
+                    <li id="login" class="nav-item"><a class="nav-link text-white" href="login.html">Log In</a></li>
+                        
                     <div>
                       <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -96,8 +98,8 @@
       <div class="row" ali>
   
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-5 ">
-          <div class="card " style="width: 18rem;">
-              <img src="assets/img/img2.jpeg" class="card-img-top" alt="...">
+          <div class="card card-body " style="width: 18rem;"width="550px" >
+              <img src="assets/img/img2.jpeg" class="card-img-top" width="550px" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Arbol de la creacion</h5>
                 <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -106,7 +108,7 @@
         </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mb-3 py-5">
-          <div class="card" style="width: 18rem;">
+          <div class="card card-body"  style="width: 18rem;">
               <img src="assets/img/img1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
               <h5 class="card-title">Colibri de marmol</h5>
@@ -117,8 +119,8 @@
           </div>
   
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mb-3 py-5">
-              <div class="card card-md6 mb-3" style="width: 18rem;">
-                  <img src="assets/img/img4.jpeg" class="servicio__img" alt="...">
+              <div class="card card-body card-md6 mb-3" style="width: 18rem;">
+                  <img src="assets/img/img4.jpeg" width="250px " height="250px" class="servicio__img" alt="...">
                   <div class="card-body">
                   <h5 class="card-title">Noche estrellada</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -127,7 +129,7 @@
               </div>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-5">
-              <div class="card" style="width: 18rem;">
+              <div class="card card-body" style="width: 18rem;">
                   <img src="assets/img/img3.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                   <h5 class="card-title">Monalisa</h5>
@@ -146,10 +148,11 @@
 
     <br></br>
 
-    <footer class="bg-primary text-white text-center py-3">
+    <footer class="bg-dark text-white text-center py-3">
         <p class="mb-0">&copy; Venta de pinturas. Todos los derechos reservados.</p>
     </footer>
 
+    <script src="assets/js/sesion.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
