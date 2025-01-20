@@ -22,21 +22,44 @@
                     <li id="registro" class="nav-item"><a class="nav-link text-white" href="re.html">Registro</a></li>
                     <li id="login" class="nav-item"><a class="nav-link text-white" href="login.html">Log In</a></li>
                         
-                    <div>
+                    <div id ="search">
                       <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                         <button class="btn btn-outline-warning btn-succes" type="submit">Buscar</button>
                       </form>
-                    </div>                                    
+                    </div>  
+
                 </ul>
             </nav>
         </div>
     </header>
 
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Razon:</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                                        
+                        <textarea name="mensaje" class="form-control" rows="4" placeholder="Ingrese Razon" required></textarea>
+    
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Subir Comentario</button>
+                    </div>
+                </div>
+                </div>
+            </div>
 
-    <main id="principal"></main>
 
-  
+    <main id="principalAdmin"></main>
+
+      
+
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -64,8 +87,10 @@
     <footer class="bg-dark text-white text-center py-3">
         <p class="mb-0">&copy; Venta de Pinturas. Todos los derechos reservados.</p>
     </footer>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/sesion.js"></script>
     <script src="assets/js/consumo-api.js"></script>
+    <script src="assets/js/aprobarPinturas.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ let usuarios= [
 
     {nombre: "admin", email: "admin@gmail.com", password: "admin123", tipo: "admin"},
     {nombre: "aron", email: "aron@gmail.com", password:"hola", tipo: "admin"},
-    {nombre: "aronUser", email: "aronUser@gmail.com", password:"holaUser", tipo: "usuario"},
+    {nombre: "aronUser", email: "aronUser@gmail.com", password:"holaUser", tipo: "pintor"},
     
     
 ]
@@ -38,12 +38,17 @@ formulario.addEventListener("submit", (e) => {
     }else if(!email.value.trim()){
         alert("El email es requerido");
         return;
-    }else if(!password.value.trim().validarContrasena()){
+    }else if(!password.value.trim()){
         alert("La contraseña es requerido");
         
         return;
-    }else if(!repetirContra.value.trim().validarContrasena()){
+    }else if(!repetirContra.value.trim()){
         alert("La confirmacin de la contraseña es requerido");
+        return;
+    }else if(!validarContrasena(password.value)){
+        alert(`La contraseña debe cumplir con lo siguiente: 
+        largos de las contraseñas deben partir en 6 u 8 caracteres,
+        e incluir distintos tipos de caracteres como minúsculas, mayúsculas, números y símbolos.`)
         return;
     }else if (password.value.trim() != repetirContra.value.trim()){
         alert("Las contraseñas no coinciden")
