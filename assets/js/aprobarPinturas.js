@@ -66,7 +66,7 @@ function cargarPinturas(){
                     <td>${p.tecnicaUsada}</td>
                     <td>US$ ${(p.precio / valorDolarrr).toFixed(2)}</td>
                     <td>${p.estado}</td>
-                    <td><button id="aprobar" onclick="aprobar(${index})">Aprobado</button><button onclick="reprobar(${index})">Reprobado</button></td>
+                    <td><button class="btn btn-success mb-3" id="aprobar" onclick="aprobar(${index})">Aprobado </button><button class="btn btn-danger mb-3" onclick="reprobar(${index})">Reprobado</button></td>
 
                 
                 `;
