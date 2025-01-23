@@ -149,3 +149,4 @@ function reprobar(posicion_pintura_a_reprobar){
 
 }
 
+cargarPinturas();
